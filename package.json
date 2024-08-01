@@ -1,0 +1,17 @@
+{
+  "name": "icanhazbanko",
+  "version": "1.0.0",
+  "description": "icanhazbanko website",
+  "main": "index.mjs",
+  "bin": {
+    "banko": "./bin/index.mjs"
+  },
+  "type": "module",
+  "dependencies": {
+    "asciify-image": "^0.1.10",
+    "box-node-sdk": "^3.7.0",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5",
+    "yargs": "^17.7.2"
+  }
+}
